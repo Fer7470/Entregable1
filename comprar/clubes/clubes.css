@@ -1,0 +1,143 @@
+body {
+  font-family: 'Permanent Marker', cursive;
+  background-color: #2c2c2c;
+  color: gold;
+  margin: 0;
+  padding: 0;
+}
+
+.vendidas {
+  text-align: center;
+  padding: 40px 0 20px;
+}
+
+.tabla-camisetas {
+  margin: 0 auto;
+  border-collapse: collapse;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.tabla-camisetas td {
+  padding: 20px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.camiseta {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 350px;
+  max-width: 250px;
+  margin: auto;
+}
+
+.camiseta img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.camiseta h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.camiseta p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.camiseta button {
+  background-color: #ff0;
+  color: #000;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.camiseta button:hover {
+  background-color: #fff700;
+}
+
+.border1{
+  border: 2px solid white;
+  box-shadow: 0 4px 12px white;
+}
+
+.border2{
+  border: 2px solid blue;
+  box-shadow: 0 4px 12px blue;
+}
+
+.border3{
+  border: 2px solid red;
+  box-shadow: 0 4px 12px red;
+}
+
+.border4{
+  border: 2px solid yellow;
+  box-shadow: 0 4px 12px yellow;
+}
+
+.border5{
+  border: 2px solid red;
+  box-shadow: 0 4px 12px red;
+}
+
+.border6{
+  border: 2px solid blue;
+  box-shadow: 0 4px 12px blue;
+}
+
+.border7{
+  border: 2px solid red;
+  box-shadow: 0 4px 12px red;
+}
+
+.border8{
+  border: 2px solid blue;
+  box-shadow: 0 4px 12px blue;
+}
+
+.border9{
+  border: 2px solid red;
+  box-shadow: 0 4px 12px red;
+}
+
+.border10{
+  border: 2px solid skyblue;
+  box-shadow: 0 4px 12px skyblue;
+}
+
+.border11{
+  border: 2px solid white;
+  box-shadow: 0 4px 12px white;
+}
+
+.border12{
+  border: 2px solid darkblue;
+  box-shadow: 0 4px 12px darkblue;
+}
+
+.border13{
+  border: 2px solid yellow;
+  box-shadow: 0 4px 12px yellow;
+}
+
+.border14{
+  border: 2px solid red;
+  box-shadow: 0 4px 12px red;
+}
+
+.border15{
+  border: 2px solid green;
+  box-shadow: 0 4px 12px green;
+}

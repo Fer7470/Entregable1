@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.barra {
+  background-color: #2c2c2c;
+  border-bottom: 5px solid springgreen;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.barra .titulo {
+  color: cyan;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu a {
+  color: gold;
+  margin-left: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: cyan;
+}
+
+.Bienvenidos {
+  position: relative;
+  background: url('imagenes/Puro\ Futbol.png') center/cover no-repeat;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 60px;
+  text-align: right;
+}
+
+.contenido-bienvenidos {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px 30px;
+  border-radius: 10px;
+  z-index: 2;
+  backdrop-filter: blur(2px); 
+}
+
+.Bienvenidos h2 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.Bienvenidos button {
+  padding: 12px 25px;
+  background-color: gold;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Bienvenidos button:hover {
+  background-color: cyan;
+}
+
+.frase {
+  background-color: #2c2c2c;
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-top: 5px solid slateblue;
+  border-bottom: 5px solid springgreen;
+}
+
+.texto-frase {
+  max-width: 500px;
+  margin: 20px;
+}
+
+.texto-frase h2 {
+  color: gold;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.texto-frase p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.imagen-frase img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  border: 5px solid red;
+}
+
+
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 5px solid slateblue;
+  justify-content: center;
+  padding: 30px;
+  gap: 20px;
+  background-color: #1c1c1c;
+}
+
+.categoria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 300px;
+}
+
+.categoria img {
+  width: 90%;
+  height: 500px; 
+  object-fit: cover; 
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.categoria img:hover {
+  transform: scale(1.05);
+}
+
+.categoria h2 {
+  color: gold;
+  margin-top: 10px;
+}
+
+.mas-vendidas {
+  background-color: #2c2c2c;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.mas-vendidas h1 {
+  color: gold;
+  margin-bottom: 30px;
+}
+
+.tabla-camisetas {
+  margin: 0 auto;
+  border-spacing: 30px 40px; 
+}
+
+.camiseta {
+  text-align: center;
+  width: 220px;
+}
+
+.camiseta img {
+  width: 100%;
+  height: 300px; 
+  object-fit: cover; 
+  border-radius: 8px;
+  border: 5px solid orange;
+}
+
+.camiseta button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: gold;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+}
+
+.camiseta button:hover {
+  background-color: cyan;
+}
+
+.camiseta button a {
+  color: black;
+  text-decoration: none;
+}
+
+.ubicacion {
+  width: 100vw; 
+  background-color: #1c1c1c;
+  border-top: 5px solid springgreen;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  margin: 0;
+  overflow: hidden; 
+}
+
+.contenido-mapa {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.mapa-iframe {
+  width: 100%;
+  max-width: 600px; 
+  margin: 20px;
+}
+
+.texto-direccion {
+  max-width: 400px;
+  color: white;
+  text-align: left;
+  transform: translateX(-200px);
+}
+
+.texto-direccion h2 {
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.texto-direccion p {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #2c2c2c;
+  color: gold;
+  padding: 40px 20px 20px;
+  font-family: 'Permanent Marker', cursive;
+  border-top: 5px solid slateblue;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-col {
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+
+.footer-col h3,
+.footer-col h4 {
+  margin-bottom: 10px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 6px;
+}
+
+.footer-col ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: #ffd700;
+}
+
+.footer-col p {
+  margin: 5px 0;
+  color: white;
+}
+
+.redes-sociales a img {
+  width: 24px;
+  margin-right: 10px;
+  filter: brightness(1.2);
+  transition: transform 0.3s;
+}
+
+.redes-sociales a img:hover {
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  border-top: 5px solid springgreen;
+  padding-top: 10px;
+}
+
+.border1 img{
+  border: 5px solid greenyellow;
+}
+
+.border2 img{
+  border: 5px solid orange;
+}
+
+.border3 img{
+  border: 5px solid darkviolet;
+}
